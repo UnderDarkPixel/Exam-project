@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .line {
@@ -13,6 +14,22 @@
     background-color: #333;
     color: white;
     text-align: center;
+}
+
+ul {
+    width: 350px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 980px;
+    position: absolute;
+    top: 20px
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .logo {
@@ -27,9 +44,32 @@
     /* border: 1px solid white; */
 }
 
+.header__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    background-color: #B59571;
+    color: #fff;
+    border: none;
+    transition: all 1s ease;
+}
+
+.header__btn:hover {
+    transform: scale(1.1);
+    background-color: #fff;
+    color: #B59571
+}
+
 .menu {
     margin-top: 20px;
 }
+
+li {
+    margin-top: 6px;
+}
+
 
 .menu p {
     margin: 15px;
@@ -68,6 +108,14 @@ span {
     text-align: start;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+.header__txt {
+    margin-top: 300px;
+    margin-right: 500px
+}
 
 .about__largetxt {
     font-size: 50px;
@@ -75,7 +123,7 @@ span {
 
 .about {
     margin: 60px;
-    width: 600px;
+    width: 700px;
     height: 200px;
     display: flex;
     justify-content: space-between;
@@ -86,8 +134,9 @@ span {
 }
 
 .menu {
-    margin: 60px;
-    width: 600px;
+    margin: 50px;
+    width: 800px;
+    gap: 90px;
     display: flex;
     justify-content: space-between;
 }
@@ -101,6 +150,12 @@ span {
     width: 800px;
     display: flex;
     justify-content: space-between;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: black;
 }
 
 .menu__img {
@@ -128,39 +183,10 @@ span {
     margin-left: 500px;
 }
 
-.contacts {
-    margin: 40px;
-    background-color: #eee;
-    width: 80%;
-}
-
-.contact-box {
-    display: flex;
-    margin: 20px;
-}
-
-.info {
-    margin-right: 50px;
-}
-
-.map {
-    background-color: black;
+.hide {
     width: 300px;
-    height: 200px;
-}
-
-.footer {
-    margin: 40px;
-    background-color: #ddd;
-    width: 80%;
-}
-
-.numbers {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
-}
-
-.num {
-    text-align: center;
+    height: 30px;
+    background-color: #fff;
+    position: absolute;
+    top: 2540px
 }
